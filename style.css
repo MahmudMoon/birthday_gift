@@ -1,0 +1,108 @@
+body{
+    background-image: linear-gradient(white, red);
+    padding-bottom: 50px;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.face{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.face img{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    object-fit: contain;
+    border-width: 5px;
+    border-color: red;
+    border-style: dotted;
+}
+
+#bd_title {
+    font-family: 'Happy Monkey', cursive;
+    font-weight: 400;
+}
+
+.face p{
+    margin: 5px auto;
+    background-color: lightpink;
+    padding: 5px 10px;
+}
+
+#age{
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#dob{
+    font-weight: 200;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+
+.gift{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift *{
+    margin: 0;
+}
+
+.gift p{
+    font-weight: 400;
+    padding: 5px 10px;
+}
+
+.gift_title{
+    font-size: 20px;
+}
+
+.gift_body{
+    font-size: 16px;
+}
+
+.gift_design{
+    margin-top: 10px;
+    width: 400px;
+    height: 400px;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 5px;
+    border-color: white;
+    background-size: cover;
+    background-position: center;
+    background-image: url('gift.jpg');
+}
+
+.gift_design :hover{
+    background-image: url('happy.gif');
+}
+
+#first_gift{
+    background-image: url('gift.jpg');
+}
+
+#first_gift :hover{
+    background-image: url('happy.gif');
+}
+
+#second_gift{
+    background-image: url('gift.jpg');
+}
+
+#second_gift :hover{
+    background-image: url('happy.gif');
+}
